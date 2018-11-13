@@ -19,6 +19,7 @@ public final class SieveActor extends Sieve {
      * Eratosthenes as a pipeline of actors, each corresponding to a single
      * prime number.
      */
+
     @Override
     public int countPrimes(final int limit) {
         final SieveActorActor sieveActor = new SieveActorActor(2);
